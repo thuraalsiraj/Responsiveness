@@ -1,0 +1,22 @@
+body {
+	background-color: #e2d2de;
+	
+	font-size: 20px;
+	color: #89c51a;
+}
+#large, #medium, #small {
+	float: left;
+	width: 25%;
+	padding: 30px 30px 30px 50px;
+	/*جعل الكتابة بشكل عمودي*/
+}
+ @media only screen and (max-width: 1000px) {
+	body {
+		background-color:#e65100;
+		color: white;
+	}
+@media only screen and (max-width: 480px) {
+	body {
+		background-color: #76ff03;
+		color: rgb(212, 3, 3);
+	}
